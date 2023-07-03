@@ -1,24 +1,6 @@
 # Code Challenge
 
-Your task is to create a 3-page application
-
-### 📄 Sign-in & Sign-up page:
-
-sign in page:
-
-![signin](https://raw.githubusercontent.com/forexco/code-challenge-2/main/design/signin.png)
-
-sign up page:
-
-![signup](https://raw.githubusercontent.com/forexco/code-challenge-2/main/design/signup.png)
-
-- a new user can sign up
-
-- redirect to the currency convert page if the sign-in is successful
-
-- only display the currency converter page to the logged-in user
-
-- keep the component as close to design as possible (blue1:`#2F49D1`, blue2: `#5887FF`, grey:`#EFF0F6`)
+Your task is to create a 2-page application
 
 ### 📄 Currency converter page:
 
@@ -36,7 +18,11 @@ sign up page:
 
 - click the icon in the middle to switch 2 currencies and re-fetch the rate
 
-- click the "Refresh" button to re-fetch the rate
+- click the "Submit" button to save the conversion data to database
+
+### 📄 Transactions page:
+
+- 
 
 ## 🎯 Requirements:
 
@@ -47,8 +33,6 @@ sign up page:
 - use any relational database
 
 - use any Node.js framework to create API
-
-- use the JWT token to authenticate the sign-in and API request
 
 - use this API to retrieve currency rates: https://openexchangerates.org/ (Note: This API provides rates with USD as the base currency, e.g., USD -> AUD. It does not allow changing the base currency. Therefore, you need to devise a solution using the available data to calculate the desired conversion rate.)
 
