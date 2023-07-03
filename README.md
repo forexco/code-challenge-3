@@ -6,7 +6,7 @@ Your task is to create a 2-page application
 
 - display this component:
 
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/0d2de567-0263-4934-a5a3-4fc9a4d6871e)
+ ![image](https://github.com/forexco/code-challenge-3/assets/109489175/77ea850e-dba5-4d5a-9bed-4c313313cf29)
 
 - automatically fetch rate when both sides of currency provided
 
@@ -15,7 +15,7 @@ Your task is to create a 2-page application
 - displaying the fetched rate in "Market Rate" on fetching rate success (error sign when fetching failed)
 
 - calculate and display the fee amount using the following formula:
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/113d6cbc-6bbf-46e8-80a4-4d8d00fade9d)
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/51cbe4dc-e949-4fcc-b180-fc8ffa0c9d64)
 
 - click the icon in the middle to switch 2 currencies and re-fetch the rate
 
@@ -29,7 +29,8 @@ Your task is to create a 2-page application
 ### 📄 Transactions page:
 
 - display this component:
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/51cbe4dc-e949-4fcc-b180-fc8ffa0c9d64)
+
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/113d6cbc-6bbf-46e8-80a4-4d8d00fade9d)
 
 - fetch data from database and populate the table
 
