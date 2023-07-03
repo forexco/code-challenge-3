@@ -15,7 +15,9 @@ Your task is to create a 2-page application
 - displaying the fetched rate in "Market Rate" on fetching rate success (error sign when fetching failed)
 
 - calculate and display the fee amount using the following formula:
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/51cbe4dc-e949-4fcc-b180-fc8ffa0c9d64)
+
+
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/2197bac9-e1e5-480d-b957-87e87b2a9469)
 
 - click the icon in the middle to switch 2 currencies and re-fetch the rate
 
@@ -24,13 +26,14 @@ Your task is to create a 2-page application
 #### Bonus:
 - by default source currency amount can be changed (Bonus: if the amount changes on either side, automatically re-calculate another amount)
 - if target currency amount is changeable, fee is calculated using this formula:
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/2197bac9-e1e5-480d-b957-87e87b2a9469)
+
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/113d6cbc-6bbf-46e8-80a4-4d8d00fade9d)
 
 ### 📄 Transactions page:
 
 - display this component:
 
-![image](https://github.com/forexco/code-challenge-3/assets/109489175/113d6cbc-6bbf-46e8-80a4-4d8d00fade9d)
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/51cbe4dc-e949-4fcc-b180-fc8ffa0c9d64)
 
 - fetch data from database and populate the table
 
