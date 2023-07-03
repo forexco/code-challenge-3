@@ -54,6 +54,7 @@ sign up page:
 
 - keep the component as close to design as possible (blue1:`#33428E`, blue2: `#012754`, button:`#002854`, background: `#F8F9FB`) (please find icons in assets folder)
 
+
 ### ⭐Bouns:
 
 - clean structure
@@ -63,6 +64,8 @@ sign up page:
 - use Nest.js to create your API
 
 - write a couple of tests
+
+- use docker to containerize the app
 
 ## Handover
 
