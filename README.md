@@ -6,7 +6,7 @@ Your task is to create a 2-page application
 
 - display this component:
 
-![converter](https://raw.githubusercontent.com/forexco/code-challenge-2/main/design/converter.png)
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/0d2de567-0263-4934-a5a3-4fc9a4d6871e)
 
 - automatically fetch rate when both sides of currency provided
 
@@ -14,21 +14,31 @@ Your task is to create a 2-page application
 
 - displaying the fetched rate in "Market Rate" on fetching rate success (error sign when fetching failed)
 
-- if the amount changes on either side, automatically re-calculate another amount
+- calculate and display the fee amount using the following formula:
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/113d6cbc-6bbf-46e8-80a4-4d8d00fade9d)
 
 - click the icon in the middle to switch 2 currencies and re-fetch the rate
 
 - click the "Submit" button to save the conversion data to database
 
+#### Bonus:
+- by default source currency amount can be changed (Bonus: if the amount changes on either side, automatically re-calculate another amount)
+- if target currency amount is changable, fee is calculated using this formula:
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/2197bac9-e1e5-480d-b957-87e87b2a9469)
+
 ### 📄 Transactions page:
 
-- 
+- display this component:
+![image](https://github.com/forexco/code-challenge-3/assets/109489175/51cbe4dc-e949-4fcc-b180-fc8ffa0c9d64)
+
+- fetch data from database and populate the table
+
 
 ## 🎯 Requirements:
 
 - use TypeScript
 
-- use React/Vue.js
+- use React
 
 - use any relational database
 
@@ -42,8 +52,6 @@ Your task is to create a 2-page application
 
 ### ⭐Bouns:
 
-- clean structure
-
 - use Material UI with Styled-components or Emotion
 
 - use Nest.js to create your API
@@ -52,14 +60,12 @@ Your task is to create a 2-page application
 
 ## Handover
 
-- create a Github repository to track your work
+- create a private Github repository to track your work
 
-- commit your work frequently
+- invite [github.com/alenbasar](https://github.com/alenbasar) and [github.com/dongongngg-forexco](https://github.com/dongongngg-forexco) as collaborators
 
-- work on a separate branch and when you are ready, open a Pull Request to the main branch
+- work on a staging branch and when you are ready, open a Pull Request to the main branch and request review
 
 - write a `README.md` with instructions on how to set up and start your solution
-
-- when you finish the code challenge, send us the link to the repository
 
 #### Email [j.dong@forexco.com.au](mailto:j.dong@forexco.com.au) for questions related to this code challenge
