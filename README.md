@@ -42,14 +42,16 @@ Your task is to create a 2-page application
 - use React
 - use any relational database
 - use any Node.js framework to create API
+- please utilize the backend to calculate the rate or fee. The frontend's role is solely to provide the symbol and amount.
 - use this API to retrieve currency rates: https://openexchangerates.org/ (Note: This API provides rates with USD as the base currency, e.g., USD -> AUD. It does not allow changing the base currency. Therefore, you need to devise a solution using the available data to calculate the desired conversion rate.)
-- keep the component as close to design as possible (blue1:`#33428E`, blue2: `#012754`, button:`#002854`, background: `#F8F9FB`) (please find icons in assets folder)
+- keep the component as close to the design as possible (blue1:`#33428E`, blue2: `#012754`, button:`#002854`, background: `#F8F9FB`) (please find icons in assets folder)
 - use docker to containerize the app
 
 ### ⭐Bouns:
 
 - use MUI, Styled-components or Emotion
 - use Nest.js to create your API
+- use an ORM for database manipulation
 - write a couple of tests
 
 ## Submission Instructions
