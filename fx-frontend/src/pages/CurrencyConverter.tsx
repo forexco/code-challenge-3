@@ -1,7 +1,10 @@
+import { Box } from "@mui/material";
+import { CurrencyTransferCard } from "../components/CurrencyTransferCard/CurrencyTransferCard";
+
 export const CurrencyConverter = () => {
   return (
-    <div>
-      <h1>CurrencyConverter</h1>
-    </div>
+    <Box>
+      <CurrencyTransferCard />
+    </Box>
   );
 };
