@@ -10,24 +10,7 @@ import {
 import ImgConvertIcon from "../../assets/converter-icon.png";
 import ImgConverterSwapIcon from "../../assets/converter-swap-icon.png";
 import theme from "../../config/theme";
-const currencies = [
-  {
-    value: "USD",
-    label: "$",
-  },
-  {
-    value: "EUR",
-    label: "€",
-  },
-  {
-    value: "BTC",
-    label: "฿",
-  },
-  {
-    value: "JPY",
-    label: "¥",
-  },
-];
+import { useCurrenciesQuery } from "../../hooks/useCurrenciesQuery";
 const CurrencyTransferCard = () => {
   const StyledButton = styled(Button)({
     backgroundColor: theme.palette.bluePrimary.main,
@@ -36,8 +19,15 @@ const CurrencyTransferCard = () => {
     borderRadius: 8,
     height: 48,
     padding: "0 30px",
-    width: "180px", //
+    width: "180px",
   });
+  const { data: currencies, isLoading } = useCurrenciesQuery();
+  if (isLoading) {
+    return <span>Loading...</span>;
+  }
+  if (!currencies) {
+    return <span>Something went wrong</span>;
+  }
   return (
     <Box>
       <Grid container justifyContent="center">
@@ -75,8 +65,8 @@ const CurrencyTransferCard = () => {
               helperText="Please select your currency"
             >
               {currencies.map((option) => (
-                <MenuItem key={option.value} value={option.value}>
-                  {option.label}
+                <MenuItem key={option.code} value={option.code}>
+                  {option.code}
                 </MenuItem>
               ))}
             </TextField>
@@ -101,8 +91,8 @@ const CurrencyTransferCard = () => {
               helperText="Please select your currency"
             >
               {currencies.map((option) => (
-                <MenuItem key={option.value} value={option.value}>
-                  {option.label}
+                <MenuItem key={option.code} value={option.code}>
+                  {option.code}
                 </MenuItem>
               ))}
             </TextField>
