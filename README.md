@@ -47,7 +47,7 @@ Your task is to create a 2-page application
 - keep the component as close to the design as possible (blue1:`#33428E`, blue2: `#012754`, button:`#002854`, background: `#F8F9FB`) (please find icons in assets folder)
 - use docker to containerize the app
 
-### ⭐Bouns:
+### ⭐Bonus:
 
 - use MUI, Styled-components or Emotion
 - use Nest.js to create your API
